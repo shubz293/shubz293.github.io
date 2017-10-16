@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Source+Sans+Pro:400,700,900');
+
+
+
+
+/* variable imports */
+
+@import 'colors';
+@import 'typography';
+
+/* webpage components import */
+
+@import 'bg'; //background
+@import 'header';
+@import 'footer';
+@import 'contact-me';
+@import 'section';
+@import 'profile';
+@import 'work';
+@import 'edu';
+@import 'proj';
+@import 'timeline';
+
+body {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
+h2 {
+    padding-bottom: 10px;
+}
+
+
+
+
+
+.content-container {
+    margin-top: 50px;
+    width: 100%;
+    top: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.icon-details {
+    margin: 20px;
+    background-color: rgba(255,255,255,.1);
+    border-radius: 50%;
+    border: solid 4px;
+    border-color: rgba(0,0,0,.05);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+    
+}
+
+.headder {
+    padding: 2%;
+    
+    
+}
+
+/* button in profile */
+.cert-btn {
+    
+    margin: 2%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.cert-btn:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.cert-btn:active {
+    background-size: 90%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+/* button in profile ends */

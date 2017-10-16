@@ -1,0 +1,55 @@
+/* footer */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: $f-color;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.social {
+    margin-top: 2.5%;
+}
+
+.copyright {
+    text-align: center;
+    height: auto;
+    margin-top: 3.5%;
+    padding: 10px;
+}
+
+.copyright__statement {
+    width: 100%;
+    bottom: px;
+    font-size: 11px;
+    color: ghostwhite;
+    font-family: $copyright-font;
+    
+}
+
+    /* font awesome */
+    .fa_footer {
+        padding: 20px;
+        width: auto;
+        color: $d-fa_footer;
+        text-decoration: none;
+        font-size: 130%;
+    }
+        /* Add a hover effect if you want */
+    .fa_footer:hover {
+        color: white;
+        text-decoration: none;
+    }
+    
+.fa_footer:active {
+    opacity: 1;
+    color: grey;
+}
+    /* font awesome end */
+
+/* footer end */

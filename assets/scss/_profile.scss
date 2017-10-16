@@ -1,0 +1,41 @@
+
+#profile-picture {
+    width: 300px;
+    border-radius: 50%;
+    border: solid 8px;
+    border-color: rgba(0,0,0,.1);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.profile__picture {
+    text-align: center;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.profile-details {
+    padding: 5%;
+    text-align: center;
+}
+
+
+fa_profile {
+    font-size: 120%;
+}
+
+table, tr, td {
+    padding: 7px 10px 7px 10px;
+    text-align: left;
+    vertical-align: top;
+    height: 25px;
+}
+
+li {
+    text-decoration: none;
+    margin-left: -20px;
+}
+
+table-data {
+    
+}

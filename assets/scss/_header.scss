@@ -1,0 +1,31 @@
+/* Header bar */
+
+header {
+    width: 100%; 
+    height: 60px;
+    padding: 10px;
+    background-color: $h-color;
+    position: fixed;
+    top: 0;
+    z-index: 400;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.logo {
+    position: fixed;
+    top: 5px;
+    
+}
+
+.site-title {
+    padding: 0px 10px 0px 10px;
+    margin-top: auto;
+    color: ghostwhite;
+    position: fixed;
+    right: 2%;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+    
+}
+
+/* Header bar ends */
